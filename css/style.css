@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color_borde: #5ae33f:
+    --color_fondo: 
+}
+
+body {
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+ 
+/* */
+.navbar {
+    height: 15vh;
+    background-color: rgb(108, 108, 108);
+    border-bottom: 1px solid #09203f;
+}
