@@ -34,7 +34,7 @@
                             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Quienes Somos</a>
+                            <a class="nav-link" href="#quienes-somos">Quienes Somos</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -42,12 +42,12 @@
                                 Productos
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Remeras</a></li>
-                                <li><a class="dropdown-item" href="#">Zapatos</a></li>
+                                <li><a class="dropdown-item" href="#remeras">Remeras</a></li>
+                                <li><a class="dropdown-item" href="#zapatos">Zapatos</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Conjuntos</a></li>
+                                <li><a class="dropdown-item" href="#conjuntos">Conjuntos</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -61,85 +61,195 @@
                 </div>
             </div>
         </nav>
-        <section class="carrusel-hero">
-            <div id="carouselRopaCrazy" class="carousel carousel-white slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselRopaCrazy" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselRopaCrazy" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselRopaCrazy" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="./img/fondo1.jpg" class="d-block" alt="img-fondo">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="./img/fondo2.jpg" class="d-block" alt="img-fondo">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/fondo3.jpg" class="d-block" alt="img-fondo">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Siguiente</span>
-                </button>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
-        </section>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/fondo1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption Carousel-Title">
+                        <h1>Todo en Ropa Urbana</h1>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/fondo2.jpg" class="d-block w-100" alt="...">
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div> -->
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/fondo3.jpg" class="d-block w-100" alt="...">
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div> -->
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </header>
     <main class="container-fluid">
-        <!-- Section de Grid -->
+        <!-- Section de principio de Grid -->
         <section class="grid-main">
-            <div class="container-fluid my-5 ">
+            <section class="main-ofertas">
+                <div class="ofertas">
+                    <h2 class="section-title text-center">Ofertas del 20% </h2>
+                    <p class="section-paragraph text-center">En todas las Talles</p>
+                </div>
                 <div class="row">
-                    <div class="col-sm-4">
-                        <img class="img-fluid img-grid my-4" src="./img/img2.jpg" alt="">
+                    <div class="col-12 col-md-6 col-lg-3 img-oferta-container">
+                        <img class="img-fluid img-oferta my-5 rounded w-100" src="./img/img1.jpg" alt="">
+                        <div class="overlay">
+                            <p>Conjuntos</p>
+                            <div class="iconos-contenedor">
+                                <a href="./pages/productos.htm">
+                                    <i class="bi bi-bag-heart"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-sm-4">
-                        <img class="img-fluid img-grid my-4" src="./img/img1.jpg" alt="">
+                    <div class="col-12 col-md-6 col-lg-3 img-oferta-container ">
+                        <img class="img-fluid img-oferta my-5 rounded w-100" src="./img/img2.jpg" alt="">
+                        <div class="overlay">
+                            <p>Remeras</p>
+                            <div class="iconos-contenedor">
+                                <a href="./pages/productos.htm">
+                                    <i class="bi bi-bag-heart"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-sm-4 ">
-                        <img class="img-fluid img-grid my-4" src="./img/img5.jpg" alt="">
+                    <div class="col-12 col-md-6 col-lg-3 img-oferta-container">
+                        <img class="img-fluid img-oferta my-5 rounded w-100" src="./img/pantalones.jpg" alt="">
+                        <div class="overlay">
+                            <p>Pantalones</p>
+                            <div class="iconos-contenedor">
+                                <a href="./pages/productos.htm">
+                                    <i class="bi bi-bag-heart"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-sm-12">
-                        <img class="img-fluid img-grid-md my-4" src="./img/img3.jpg" alt="">
+                    <div class="col-12 col-md-6 col-lg-3 img-oferta-container">
+                        <img class="img-fluid img-oferta my-5 rounded w-100" src="./img/zapas1.jpg" alt="">
+                        <div class="overlay">
+                            <p>Zapatos</p>
+                            <div class="iconos-contenedor">
+                                <a href="./pages/productos.htm">
+                                    <i class="bi bi-bag-heart"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row ">
-                    <div class="col-sm-3">
-                        <img class="img-grid my-4" src="./img/img4.jpg" alt="">
+
+            </section>
+            <!-- Carrusel del grid -->
+            <section>
+                <div class="ofertas">
+                    <h2 class="section-title text-center"> Tu Mundo Urbano </h2>
+                    <p class="section-paragraph text-center">todo los que Buscas para ti</p>
+                </div>
+                <div id="carousel-medio" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/carousel-segundo1.jpg" class="d-block w-100 img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/carousel-segundo2.jpg" class="d-block w-100 img-fluid " alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/carousel-segundo3.jpg" class="d-block w-100 img-fluid " alt="...">
+                        </div>
                     </div>
-                    <div class="col-sm-3">
-                        <img class="img-grid my-4" src="./img/img5.jpg" alt="">
-                    </div>
-                    <div class="col-sm-3">
-                        <img class="img-grid my-4" src="./img/img6.jpg" alt="">
-                    </div>
-                    <div class="col-sm-3">
-                        <img class="img-grid my-4" src="./img/fondo2.jpg" alt="">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-medio"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-medio"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </section>
+            <!-- Section de final de Grid -->
+            <section>
+                <div class="container-fluid">
+                    <div class="row d-flex">
+                        <!-- primero -->
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="./img/grid-final1.jpg" class="d-block w-100 section-img my-4 rounded" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./img/grid-final2.jpg" class="d-block w-100 section-img my-4 rounded" alt="...">
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <!-- segundo -->
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="./img/grid-final3.jpg" class="d-block w-100 section-img my-4 rounded" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./img/grid-final4.jpg" class="d-block w-100 section-img my-4 rounded" alt="...">
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <!-- tercero -->
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="./img/grid-final5.jpg" class="d-block w-100 section-img my-4 rounded" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./img/grid-final6.jpg" class="d-block w-100 section-img my-4 rounded" alt="...">
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <!-- cuarto -->
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="./img/grid-final7.jpg" class="d-block w-100 section-img my-4 rounded" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./img/grid-final8.jpg" class="d-block w-100 section-img my-4 rounded" alt="...">
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </section>
 
         <!-- Section de Card -->
@@ -200,6 +310,13 @@
                 </div>
             </div>
         </div>
+
+        <!-- section de Quienes Somos -->
+        <section>
+            <div class="ofertas">
+                <h2 id="quienes-somos"  class="section-title text-center">Quienes Somos </h2>
+            </div>
+        </section>
     </main>
 
     <div class="container-fluid bg-dark border-top text-white">
@@ -251,8 +368,7 @@
                 </div>
             </div>
 
-            <div
-                class="d-flex flex-column flex-sm-colum justify-content-between border-top align-items-center ">
+            <div class="d-flex flex-column flex-sm-colum justify-content-between border-top align-items-center ">
                 <p class="m-4">&copy; 2022 Company, Inc. All rights reserved.</p>
                 <ul class="list-unstyled d-flex my-4">
                     <li class="ms-3">
