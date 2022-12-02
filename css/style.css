@@ -142,6 +142,44 @@ body {
     height: 50vh;
 }
 
+/* quienes somos */
+.img-perfil {
+    width: 400px;
+    border-radius: 0px 200px 70px 200px;
+}
+
+.article {
+    text-align: center;
+    color: #ffffff;
+    margin: 30px;
+}
+
+.article-title{
+    font-size: 3rem;
+    margin-top: 50px;
+}
+
+.article-paragraph {
+    font-size: 20px;
+    text-align: justify;
+}
+/* footer */
+.icon-footer {
+    background-color: #2a486e;
+    padding: 13px 15px;
+    font-size: 18px;
+    border-radius: 50%;
+    border: solid 1px white;
+}
+
+.icon-footer i {
+    color: #ffffff;
+}
+
+.icon-footer:hover {
+    background-color: #5ae33f;
+}
+
 /* section de Reponsive */
 @media screen and (max-width: 860px) {
     .Carousel-Title h1 {
