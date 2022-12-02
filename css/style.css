@@ -146,6 +146,8 @@ body {
 .img-perfil {
     width: 400px;
     border-radius: 0px 200px 70px 200px;
+    display: block;
+    margin: 0 auto;
 }
 
 .article {
